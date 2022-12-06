@@ -1,10 +1,11 @@
-var price = 200;
-var discount = 30
-;
-var inStock = true;
+var dogName = "Rex";
+var weight = 30;
 
-if(price <= 200 && discount < 15 && inStock == true) {
-    alert("Buy everything!!!!")
-} else if (price > 200 || discount > 15 || inStock == false) {
-    alert("Do not buy, it a horrible offer!!!!")
+
+function bark(dogName, weight) {
+    if (weight > 20) {
+       console.log(dogName + "WOOF WOOF!");
+    } else {
+        console.log(dogName + "woof woof!");
+    }
 }
